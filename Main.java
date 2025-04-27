@@ -73,7 +73,7 @@ public class Main {
         }
     }
     
-    public static void removeTask(List array, String task) {
+    public static void removeTask(List<String> array, String task) {
         if (array.contains(task)) {
             array.remove(task);
         } else
@@ -81,7 +81,7 @@ public class Main {
 
     }
 
-    public static List removeKeyWord(List array, String word) {
+    public static List removeKeyWord(List<String> array, String word) {
         Iterator<String> iterator = array.iterator();
         while (iterator.hasNext()) {
             String item = iterator.next();
