@@ -81,7 +81,7 @@ public class Main {
 
     }
 
-    public static List removeKeyWord(List<String> array, String word) {
+    public static List<String> removeKeyWord(List<String> array, String word) {
         Iterator<String> iterator = array.iterator();
         while (iterator.hasNext()) {
             String item = iterator.next();
